@@ -1,0 +1,725 @@
+@font-face{
+	src:url('../lib/font/OpenSans-Bold.ttf');
+	font-family: opensan ;
+}
+*{
+	border: 0;
+	padding: 0;
+	margin :0;
+	font-family: opensan ;
+}
+.wapper{
+	width: 80%;
+	margin: 0 auto;
+}
+.left{
+}
+.input-seach{
+
+}
+.seach{
+	padding-top: 3rem;
+}
+.seach input{
+	width: 90%;
+	height: 35px;
+	background-color: none;
+	border-radius: 16px;
+	color: #ed145b;
+	border: 1px solid #ed145b;
+}
+.seach input:focus{
+	border-color: #ed145b;
+	border-style: #ed145b;
+}
+.seach span{
+	margin-left: -2rem;
+	color: #ed145b;
+}
+.right-top{
+	height: 15px;
+	padding-top: 5px;
+}
+.right-top ul{
+
+}
+.right-top ul li{
+	list-style: none;
+	float: left;
+	padding-right: 0.5rem;
+}
+.right-top ul li span{
+	padding-right: 0.4rem;
+}
+.right-top ul li a{
+	text-decoration: none;
+	color: #ed145b;
+	font-size: 13px;
+}
+.icon-color{
+	color: #ed145b;
+}
+.icon-now{
+	width: 30%;
+	float: left;
+}
+.icon-now span{
+	color: #f72268;
+	font-size: 30px;
+
+	/*padding-right: 0.2rem;*/
+}
+.icon-now label{
+	font-size: 13px;
+	margin-left: 0.6rem;
+}
+.right-bottom{
+	margin-top: 2.6rem;
+}
+.final{
+	margin-left: 10%;
+	color: #ed145b;
+}
+.final span{
+	padding: 5px 8px;
+	font-size: 40px;
+}
+/*======================menu======================*/
+
+.navbar-light{
+	background-color: #ed145e;
+}
+.nav-item{
+	padding-left: 2rem;
+}
+.nav-link{
+	color: white !important;
+}
+.nav-link:hover{
+	color: #727070 !important;
+}
+.icon-home{
+	color: white;
+	font-size: 30px;
+	padding-left: 2rem;
+}
+.icon-home span{
+
+
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-menu{
+	position: absolute;
+	display: none;
+	z-index: 1;
+	top: 1.8rem !important;
+	background-color: #ed145b !important;
+	margin-left: 1.8rem !important;
+	border-radius: 0 !important;
+}
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
+.dropdown-item{
+	color: white !important;
+}
+/*.navbar-light{
+	background-color: gray !important;
+	opacity: 20%;
+}*/
+
+
+/*===================Banner========================*/
+
+.banner{
+	background-image: url('./public/img/banner.PNG');
+	width: 100%;
+}
+.img-banner{
+	width: 98%;
+	margin: 0 auto;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+.img-banner img{
+	width: 100%;
+	height: auto;
+}
+
+/*===================End-Banner========================*/
+
+
+
+/*===================Sản Phẩm========================*/
+.in-sanpham{
+	width: 90%;
+	margin: 0 auto;
+}
+.in-sanpham-top{
+	margin-top: 1rem;
+}
+.wp-icon{
+	width: 30%;
+	float: left;
+}
+.icon-sanpham{
+	width: 3.8rem;
+	height: 4rem;
+	border: 1px solid #ed145b;
+	border-radius: 50%;
+	display: inline;
+	float: left;
+}
+.icon-sanpham span{
+	padding-left: 0.2rem;
+	font-size: 46px;
+	color: #ed145b;
+}
+.txt-sanpham{
+	width: 70%;
+	float: left;
+	padding-top: 0.5rem;
+	padding-left: 0.4rem;
+}
+.txt-sanpham h6{
+	color: #ed145b;
+	font-size: 14px;
+}
+.txt-sanpham p{
+	font-size: 12px;
+}
+/*===================End_Sản Phẩm========================*/
+
+
+
+
+
+/*===================Sản Phẩm Nổi Bật========================*/
+.sp-title{
+	text-align: center;
+}
+.sanpham_noibat{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 2rem;
+}
+.SAnpham_noibat div{
+	text-align: center;
+} 
+.SAnpham_noibat .sp-anh{
+	width: 80%;
+	margin :1.6rem auto;
+}
+.sp-anh img{
+	width: 100%;
+	height: auto;
+	border-radius: 1rem;
+}
+.SAnpham_noibat:hover{
+	box-shadow:  2px 2px 20px 2px #d6d6d6;
+}
+/*===================end_Sản Phẩm Nổi Bật========================*/
+
+
+
+/*===================New_Sản_Phẩm========================*/
+.new-sanpham{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+.NEw-sanpham{
+	text-align: center;
+	color: #ed145b;
+}
+.NEW-sanpham h3 span{
+	color: yellow;
+	padding: 0 5px;
+}
+.NEw-sanpham span{
+	font-size: 20px;
+}
+.NEw-sanpham label{
+	padding: 0 1rem;
+}
+.NEW-sanpham{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+/*****Card******/
+.NEW-Sanpham-img{
+	width: 90%;
+	margin: 1rem auto;
+	text-align: center;
+}
+.NEW-Sanpham-img img{
+	width: 80%;
+	height: auto;
+}
+.NEW-Sanpham-body{
+	text-align: center;
+}
+.NEW-Sanpham-body p{
+	font-size: 14px;
+}
+.NEW-Sanpham-body .price{
+	color: #ed145b;
+}
+.NEW-Sanpham-body .price del{
+	padding-right: 0.5rem;
+	color: black;
+}
+.NEW-Sanpham-btn{
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.NEW-Sanpham-btn button span{
+	padding-right: 0.5rem;
+}
+.NEW-Sanpham:hover{
+	box-shadow:  2px 2px 20px 2px #d6d6d6;
+}
+.NEW-Sanpham{
+	position: relative;
+	z-index: 1;
+	/*display: none;*/
+}
+
+.NEW-Sanpham-sale{
+	background-color: #ed145b;
+	position: absolute;
+	padding: 10px 8px;
+	color: white;
+	text-align: center;
+	border-radius: 47%;
+	top: 20px ;
+	right: 20px;
+	z-index: 2;
+}
+.NEW-Sanpham-time{
+	background-color: rgba(0.2,0.2,0.1,0.5);
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	height: 50px;
+	width: 100%;
+	margin-left: -1rem;
+	display: none;
+}
+.NEW-Sanpham-time #time{
+	color: white;
+	text-align: center;
+	font-size: 16px;
+}
+.NEW-Sanpham-time #txt-time{
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	padding-bottom: 0.3rem;
+}
+.NEW-Sanpham:hover .NEW-Sanpham-time{
+    display: block;	
+    transition: 2s;
+}
+/*****End card****/
+
+/*===================End_New_Sản_Phẩm========================*/
+
+
+
+
+/*===================Bí quyết========================*/
+
+
+.bi-quyet{
+	width: 90%;
+	margin: 3rem auto;
+}
+.BI-quyet{
+	text-align: center;
+}
+.BI-Quyet:hover{
+	box-shadow:  2px 2px 20px 2px #d6d6d6;
+}
+.BI-Quyet-img {
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 1rem;
+}
+.BI-Quyet-img img{
+	width: 100%;
+	height: auto;
+}
+.BI-Quyet-body{
+	margin-top: 2rem;
+	text-align: justify;
+	padding: 0 5px;
+}
+.BI-Quyet-body .ten-sp{
+	font-size: 16px;
+	overflow: hidden;
+	height: 48px;
+}
+.BI-Quyet-body p{
+	font-size: 13px;
+	overflow: hidden;
+	height: 40px;
+}
+.BI-Quyet-btn{
+	text-align: center;
+	color: #ed145b;
+	margin-bottom: 2rem;
+}
+.BI-Quyet-btn:hover{
+	color: white;
+	transition: 0.6s;
+}
+.BI-Quyet-btn a{
+	padding: 6px 8px;
+	border: 1px solid #ed145b;
+	border-radius: 10px;
+	background-color: none;
+}
+.BI-Quyet-btn a:hover{
+	background-color: #ed145b;
+	transition: 0.6s;
+}
+/*===================End_Bí quyết========================*/
+
+
+
+
+
+/*===================Footer========================*/
+.footer-wp{
+	background-color: #d2d2d2;
+	border-top: 2px solid #ed145b;
+	margin-bottom: 3rem;
+}
+.footer{
+	width: 90%;
+	margin: 0 auto;
+}
+.FOoter-title{	
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.FOoter-title h4{
+	padding-left: 5px;
+}
+.FOoter-body{
+	padding-left: 5px;
+}
+.FOoter-body ul li{
+	list-style: none;
+	padding-bottom: 0.3rem;
+}
+.FOoter-body ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+}
+.FOoter-body ul li a:hover{
+	color: #ed145b;
+}
+.FOoter-body{
+}
+.FOoter-body span{
+	font-size: 30px;
+	color: #ed145b;
+	padding-right: 1rem;
+
+}
+/*===================End_Footer========================*/
+
+
+
+
+
+
+/*=========================================Trang_mỹ_phẩm=============================================*/
+
+.Content-right-title{
+	text-align: center;
+}
+.Banner-my-pham{
+	width: 100%;
+}
+.Banner-my-pham img{
+	width: 100%;
+	height: auto;
+}
+.content-right .Control-my-pham{
+	margin-top: 1rem;
+}
+.COntrol-my-pham-left select{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 1rem;
+}
+.CONtrol-my-pham-left span{
+	color: black;
+	font-size: 20px;
+	padding-right: 0.2rem;
+}
+.CONtrol-my-pham-left .active{
+	color: #ed145b !important;
+}
+.CONtrol-my-pham-left span:hover{
+	color: #ed145b;
+}
+.COntrol-my-pham-right input{
+	width: 60%;
+	height: 10px;
+}
+.COntrol-my-pham-right input:focus{
+	background-color: yellow !important;
+}
+.COntrol-my-pham-right button{
+	background-color: yellow;
+	padding: 8px 8px;
+	color: white;
+}
+.CONtrol-my-pham-right label{
+	font-size: 13px;
+	padding-right: 0.3rem;
+}
+.CONtrol-my-pham-right select{
+	font-size: 15px;
+	padding-right: 0.2rem; 
+}
+.sp-my-pham-nhat{
+	margin-bottom: 2rem;
+}
+.sp-my-pham-nhat .NEW-Sanpham .sp-my-pham-nhat-star{
+	text-align: center;
+}
+.sp-my-pham-nhat .NEW-Sanpham .sp-my-pham-nhat-star span{
+	color: yellow;
+	font-size: 16px;
+}
+.Sp-san-pham-nhat{
+	text-align: center;
+	color: #ed145b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==============Content của trang mỹ phẩm=====================*/
+.content{
+	width: 100%;
+	min-height: 600px;
+	background-color: #f8f8f8;
+	margin-top: 1rem;
+}
+.content-left{
+	width: 100%;
+	min-height: 600px;
+}
+.content-right{
+	width: 100%;
+	min-height: 600px;
+}
+/*=======Tieu_de=======*/
+.content-left-title{
+	background-color: #f2f2f2;
+	width: 100%;
+	padding: 8px 13px;
+}
+.content-left-title h6{
+	padding-top: 0.6rem;
+}
+/*======Link liên kêt========*/
+.content-left-item{
+	color: black;
+	background-color: #ffffff;
+}
+.content-left-item ul{
+	padding-left: 0.3rem;
+}
+.content-left-item ul li{
+	list-style: none;
+	padding-top: 0.6rem; 
+}
+.content-left-item ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	padding-left: 0.3rem;
+}
+.content-left-item ul li a:hover{
+	color: #ed145b;
+}
+/*=====Tieu_de_phải======*/
+.content-right-title{
+	background-color: #f2f2f2;
+	width: 100%;
+	padding: 8px 13px;
+}
+.content-right-title h6{
+	padding-top: 0.6rem;
+}
+.Content-left .COntent-left{
+	padding-top: 2rem;
+}
+.Content-left .COntent-left{
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+}
+.CONtent-left{
+	width: 40%;
+	float: left;
+}
+.CONtent-left img{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+}
+.CONTent-left{
+	width: 60%;
+	float: left;
+}
+.CONTent-left p{
+	font-size: 12px;
+	padding-top: 0.2rem;
+}
+.CONTent-left h6{
+	font-size: 11px;
+}
+.CONTent-left h6 del{
+	padding-right: 0.3rem;
+	color: black !important;
+}
+.CONTent-left .gia{
+	color: #ed145b;
+}
+/*==============End-Content=====================*/
+
+
+
+
+
+
+
+
+
+
+/*==============Màn hình smartphone=====================*/
+@media only screen and (max-width: 768px){
+.input-seach{
+	margin-bottom: 2rem;
+}
+.seach{
+	padding-top: 1rem !important;
+}
+.right{
+	margin-bottom: 1.3rem;
+}
+.right-top{
+	padding-bottom: 1rem;
+}
+
+
+}
+/*==============Màn hình smartphone=====================*/
